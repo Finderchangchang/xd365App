@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:visible="false"
+        >
+        <item
+            android:id="@+id/file_count"
+            android:title="已拍照:0"
+            android:titleCondensed="@string/app_name"
+            app:showAsAction="never"
+            />
+        <item
+            android:id="@+id/webfile_count"
+            android:icon="@mipmap/xinda"
+            android:title="已上传照片:0"
+            app:showAsAction="never" />
+    </group>
+
+    <item
+        android:id="@+id/config"
+        android:icon="@drawable/user"
+        android:title="@string/user"
+        app:showAsAction="always"
+        />
+    <!---->
+    <!--android:title="@string/config"-->
+</menu>

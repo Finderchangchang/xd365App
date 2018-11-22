@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorAccentDark">#FF3071</color>
+    <color name="white">#FFFFFF</color>
+    <color name="gray">#dddddd</color>
+    <color name="orange">#ff6200</color>
+    <color name="gray_dark">#2e2e2e</color>
+    <color name="gray_light">#9c9c9c</color>
+    <color name="text_info">#31708f</color>
+    <color name="text_normal">#000000</color>
+
+    <color name="metro1">#ff0097</color>
+    <color name="metro2">#6e155f</color>
+    <color name="metro3">#4eb3b9</color>
+    <color name="metro4">#96b232</color>
+    <color name="metro5">#a05000</color>
+    <color name="metro6">#e67188</color>
+    <color name="metro7">#de9317</color>
+    <color name="metro8">#18a1e2</color>
+    <color name="metro9">#e51400</color>
+    <color name="metro10">#339933</color>
+    <color name="metro11">#034888</color>
+    <color name="metro12">#5859b9</color>
+    <color name="metro13">#d54d34</color>
+    <color name="metro14">#260930</color>
+
+</resources>

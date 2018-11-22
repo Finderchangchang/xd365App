@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:clipChildren="false"
+    android:padding="16dp"
+    tools:context="com.djj.xd365.activity.CarCodeActivity">
+
+    <com.parkingwang.keyboard.view.InputView
+        android:id="@+id/input_view"
+        android:layout_margin="6dp"
+        app:pwkInputTextSize="22sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"/>
+
+    <Button
+        android:id="@+id/lock_type"
+        android:text="@string/pwk_change_to_energy"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/clear_number"
+        android:text="@string/clear_number"
+        android:layout_width="match_parent"
+        android:onClick="onClick"
+        android:layout_height="wrap_content"/>
+
+</LinearLayout>

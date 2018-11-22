@@ -1,0 +1,16 @@
+<resources>
+    <style name="MainActivityTheme" parent="AppTheme">
+        <item name="windowActionBarOverlay">true</item>
+        <item name="actionBarStyle">@style/MainActivityTheme.ActionBar</item>
+        <item name="android:titleTextStyle">@style/MainActivityTheme.ActionBarText</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+        <!-- 让actionbar漂浮 -->
+    </style>
+    <style name="MainActivityTheme.ActionBar">
+        <item name="android:background">#33000000</item>
+    </style>
+    <style name="MainActivityTheme.ActionBarText">
+        <item name="android:background">@color/white</item>
+    </style>
+</resources>

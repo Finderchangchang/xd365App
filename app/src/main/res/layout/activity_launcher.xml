@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/launcher"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/app_bg"
+    android:gravity="center_horizontal"
+    tools:context="com.djj.xd365.activity.LauncherActivity">
+
+    <LinearLayout
+        android:id="@+id/launcherView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/app_name"
+            android:textColor="@color/orange"
+            android:textAlignment="center"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            />
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="96dp"
+            android:layout_height="96dp"
+            android:layout_marginTop="32dp"
+            android:src="@mipmap/xinda_translate" />
+        <TextView
+            android:id="@+id/version"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="16dp"
+            android:textColor="@color/gray_dark"
+            android:text="V1.0"
+            android:textSize="20sp" />
+    </LinearLayout>
+
+
+
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:padding="8dp"
+        android:text=""
+        android:textSize="20sp" />
+
+</RelativeLayout>

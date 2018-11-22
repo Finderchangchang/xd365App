@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="16dp"
+    >
+<TextView
+    android:id="@+id/head"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/capture"
+    android:textSize="20sp"
+    android:textStyle="bold"
+    />
+
+
+    <Button
+        android:id="@+id/camera_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:layout_below="@id/head"
+        android:text="@string/camera" />
+
+    <Button
+        android:id="@+id/file_take"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/camera_take"
+        android:text="@string/file_take" />
+    <Button
+        android:id="@+id/cancel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_below="@id/file_take"
+        android:text="@string/cancel" />
+</RelativeLayout>
